@@ -1,0 +1,121 @@
+@media (max-width:900px) {
+  .hero, .hero-image{
+    height: 500px;
+  }
+
+  .hero a{
+    margin-top: 200px;
+  }
+
+  .products-container{
+    margin-top: 100px;
+    height: 600px;
+  }
+
+  .jewelry-card, .silk-card{
+    height: 250px;
+  }
+
+}
+
+
+@media (max-width:800px) {
+  .hero, .hero-image{
+    height: 500px;
+  }
+
+  .hero a{
+    margin-top: 200px;
+  }
+
+  .products-container{
+    margin-top: 30px;
+    height: 900px;
+  }
+
+  .jewelry-card, .silk-card{
+    height: 250px;
+    width: calc(100% - 100px);
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+    display: block;
+  }
+
+  .featured-collection-container{
+    height: 600px;
+  }
+
+  .collection-card{
+    display: block;
+    width: calc(100% - 100px);
+    height: 300px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 5px;
+    float: none;
+  }
+
+  .collection-text{
+    display: block;
+    width: calc(100% - 100px);
+    height: 200px;
+    margin-left: 50px;
+    float: none;
+  }
+}
+
+@media (max-width:610px) {
+  .mobile-nav{
+    display: inline-block;
+  }
+
+  .desktop-nav{
+    display: none;
+  }
+
+  .hero, .hero-image{
+    height: 400px;
+  }
+
+  .hero a{
+    margin-top: 200px;
+  }
+
+  .products-container{
+    margin-top: 30px;
+    height: 900px;
+  }
+
+  .jewelry-card, .silk-card{
+    height: 250px;
+    width: calc(100% - 40px);
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    display: block;
+  }
+
+  .featured-collection-container{
+    height: 650px;
+  }
+
+  .collection-card{
+    display: block;
+    width: calc(100% - 40px);
+    height: 300px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 5px;
+    float: none;
+  }
+
+  .collection-text{
+    display: block;
+    width: calc(100% - 40px);
+    height: 200px;
+    margin-left: 20px;
+    float: none;
+  }
+
+}

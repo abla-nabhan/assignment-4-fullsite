@@ -1,0 +1,85 @@
+.products-container{
+    margin-top: 200px;
+    height: 600px;
+    background: linear-gradient(to bottom, white 4%, #29222C);
+}
+
+.products-container h1{
+  width: 100%;
+  text-align: center;
+  color: #29222C;
+  margin-bottom: 50px;
+}
+
+.products-container a{
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  margin-left: 0;
+}
+
+.jewelry-card h1, .silk-card h1{
+  color: #29222C;
+  position: absolute;
+  background: white;
+  opacity: .7;
+  width: 100%;
+  text-align: center;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.jewelry-title, .silk-title{
+  display: inline-block;
+  margin-left: 50px;
+  width: 40%;
+}
+
+.jewelry-card{
+  background-image: url('../img/jewelry-card-pic.jpg');
+}
+
+
+.silk-card{
+  background-image: url('../img/scarf-card-pic.jpg');
+}
+
+.jewelry-card, .silk-card{
+    display: inline-block;
+    height: 60%;
+    min-height: 360px;
+    width: calc(40% - 50px);
+    min-width: 300px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 10%;
+    position:relative;
+    overflow: hidden;
+}
+
+.jewelry-card-popup, .silk-card-popup{
+  height: 60px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  transform: translateY(60px);
+  transition-duration: 0.3s;
+}
+
+.jewelry-card:hover .jewelry-card-popup{
+  display: inline-block;
+  transform: translateY(0px)
+}
+
+.silk-card:hover .silk-card-popup{
+  display: inline-block;
+  transform: translateY(0px)
+}
+
+.silk-card:hover, .jewelry-card:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}

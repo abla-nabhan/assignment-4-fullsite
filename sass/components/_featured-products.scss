@@ -1,0 +1,48 @@
+.featured-collection-container{
+    height:600px;
+    width: 100%;
+    background: #29222C;
+    display: inline-block;
+}
+
+.featured-collection-container h1{
+    display: inline-block;
+    color: white;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.collection-text h1{
+      border-bottom: 2px solid white;
+}
+
+.featured-collection-container p{
+    margin-top: 0;
+    display: inline-block;
+    padding: 10px;
+    line-height: 20px;
+    color: white;
+}
+
+.collection-card{
+    display: inline-block;
+    height: 400px;
+    width: calc(60% - 70px);
+    background-image: url('../img/collection-pic.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    margin-left: 50px;
+    float: left;
+}
+
+.collection-text{
+    display: inline-block;
+    height: 400px;
+    width: calc(40% - 50px);
+    margin-left: 5px;
+    background: #8C8092;
+    float: right;
+    margin-right: 60px;
+}
