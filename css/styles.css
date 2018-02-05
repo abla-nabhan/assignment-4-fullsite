@@ -210,15 +210,15 @@ header {
   .collection-text h1 {
     border-bottom: 2px solid white; }
 
-.footer {
+footer {
   height: 500px;
-  background: #29222C; }
-  .footer hr {
+  background-color: #29222C; }
+  footer hr {
     border: 5px;
     margin: 2px;
     align: center;
     width: 80%; }
-  .footer h1 {
+  footer h1 {
     color: white;
     margin-left: 50px;
     padding-top: 10px; }
@@ -267,7 +267,7 @@ button {
   background: #8C8092;
   padding-left: 50px;
   padding-top: 20px; }
-  .social-icons .social-icons i {
+  .social-icons i {
     letter-spacing: 20px; }
 
 .main-section p {

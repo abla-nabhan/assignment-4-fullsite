@@ -1,6 +1,6 @@
-.footer{
+footer{
     height: 500px;
-    background: #29222C;
+    background-color: #29222C;
 
     hr{
       border: 5px;
@@ -39,12 +39,12 @@ input{
   height: 50px;
   width: 300px;
 }
+
 textarea{
   display: block;
   margin-left: 50px;
   height: 90px;
   width: 300px;
-
 }
 
 button{
@@ -67,7 +67,7 @@ button{
   padding-left: 50px;
   padding-top: 20px;
 
-  .social-icons i{
+  i{
     letter-spacing: 20px;
   }
 
