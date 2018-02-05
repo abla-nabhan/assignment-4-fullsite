@@ -1,32 +1,28 @@
 .desktop-nav{
     margin: 0;
     width: 100%;
-}
 
-.desktop-nav button{
-  margin-top: 5px;
-  margin-left: 20px;
-}
+    button{
+      margin-top: 5px;
+      margin-left: 20px;
+    }
 
-.desktop-nav ul{
-    list-style: none;
-    padding: 0;
-    float: right;
-    margin: 20px 30px 0 0;
-}
+    ul{
+        list-style: none;
+        padding: 0;
+        float: right;
+        margin: 20px 30px 0 0;
+    }
 
-.desktop-nav li{
-    display: inline-block;
-}
+    li{
+        display: inline-block;
+    }
 
-.desktop-nav li:hover{
-    border-bottom: white 2px solid;
-}
+    li:hover{
+       border-bottom: white 2px solid;
+   }
 
-.dropdown-menu {
-  background: #8C8092;
 }
-
 
 .desktop-nav .shop-button:hover{
     background: transparent;
@@ -34,4 +30,8 @@
     color:  white;
     box-shadow: none;
     padding: 8px 28px;
+}
+
+.dropdown-menu {
+  background: #8C8092;
 }
