@@ -18,20 +18,22 @@
 
 <!-- DESKTOP NAV *************************************************************-->
       <div class="desktop-nav">
-          <div class="logo"></div>
+      <div class="logo" onclick="window.location.href='index.html'"></div>
           <ul>
-              <li><a href="#">About</i></a></li>
+              <li><a href="about.html">About</i></a></li>
               <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <a class="nav-link dropdown-toggle" href="http://example.com"
+        id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+        aria-expanded="false">
           Products
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="./products.html">All Products</a>
-          <a class="dropdown-item" href="#">Jewelry</a>
-          <a class="dropdown-item" href="#">Silk Scarves</a>
+          <a class="dropdown-item" href="products.html">All Products</a>
+          <a class="dropdown-item" href="products.html#jewelry-card">Jewelry</a>
+          <a class="dropdown-item" href="products.html#silk-card">Silk Scarves</a>
         </div>
       </li>
-              <button class='shop-button'>Shop</button>
+              <button onclick="window.location.href='products.html'" class='shop-button'>Shop</button>
           </ul>
       </div>
 <!--MOBILE NAV *************************************************************-->
@@ -44,6 +46,15 @@
           <!-- </div> -->
 
       </div>
+
+      <div class="mobile-menu" id='mobile-menu'>
+          <button id='close-mobile-menu-button'>Close</button>
+          <p>Home</p>
+          <p>About</p>
+          <p>Services</p>
+          <p>Contact</p>
+      </div>
+      <button id='open-mobile-menu-button'>Open</button>
       </header>
 
 </header>
@@ -52,7 +63,7 @@
 
 <section class='hero'>
             <div class="hero-container">
-                <a href="#" class='shop-button'>Shop</a>
+                <a href="products.html" class='shop-button'>Shop</a>
             </div>
         </div>
 </section>

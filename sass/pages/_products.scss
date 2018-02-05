@@ -1,14 +1,84 @@
-.all-products h1{
-  text-align: center;
+.all-products{
+  height: 700px;
 }
 
 .products-intro{
-  height: 200px;
+  height: 250px;
   width: 100%;
-  background: coral;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 15px;
+  background: #8C8092;
+  color: white;
+}
+
+.card-deck{
+  padding-top: 70px;
+
+  h1 {
+    background: pink;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+  }
+}
+
+.jewelry-card-1 img{
+  background-image: url('../img/j-product-1.jpg');
+  height: 250px;
+  width: 100%;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
 
 }
 
-.all-products .jewelry-product1{
-  background: pink;
+.jewelry-card-2 img{
+  background-image: url('../img/j-product-2.jpg');
+  height: 250px;
+  width: 100%;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+
+}
+
+.jewelry-card-3 img{
+  background-image: url('../img/j-product-3.jpg');
+  height: 250px;
+  width: 100%;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+
+}
+
+.silk-card-1 img{
+  background-image: url('../img/s-product-1.jpg');
+  height: 250px;
+  width: 100%;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+
+}
+
+.silk-card-2 img{
+  background-image: url('../img/s-product-2.jpg');
+  height: 250px;
+  width: 100%;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+
+}
+
+.silk-card-3 img{
+  background-image: url('../img/s-product-3.jpg');
+  height: 250px;
+  width: 100%;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+
 }
