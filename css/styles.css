@@ -474,50 +474,62 @@ button {
     width: 100%;
     text-align: center; }
 
-.jewelry-card-1 img {
-  background-image: url("../img/j-product-1.jpg");
-  height: 250px;
-  width: 100%;
-  background-position: center;
-  background-size: contain;
-  background-repeat: no-repeat; }
+.jewelry-card-1 {
+  border: none; }
+  .jewelry-card-1 img {
+    background-image: url("../img/j-product-1.jpg");
+    height: 250px;
+    width: 100%;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat; }
 
-.jewelry-card-2 img {
-  background-image: url("../img/j-product-2.jpg");
-  height: 250px;
-  width: 100%;
-  background-position: center;
-  background-size: contain;
-  background-repeat: no-repeat; }
+.jewelry-card-2 {
+  border: none; }
+  .jewelry-card-2 img {
+    background-image: url("../img/j-product-2.jpg");
+    height: 250px;
+    width: 100%;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat; }
 
-.jewelry-card-3 img {
-  background-image: url("../img/j-product-3.jpg");
-  height: 250px;
-  width: 100%;
-  background-position: center;
-  background-size: contain;
-  background-repeat: no-repeat; }
+.jewelry-card-3 {
+  border: none; }
+  .jewelry-card-3 img {
+    background-image: url("../img/j-product-3.jpg");
+    height: 250px;
+    width: 100%;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat; }
 
-.silk-card-1 img {
-  background-image: url("../img/s-product-1.jpg");
-  height: 250px;
-  width: 100%;
-  background-position: center;
-  background-size: contain;
-  background-repeat: no-repeat; }
+.silk-card-1 {
+  border: none; }
+  .silk-card-1 img {
+    background-image: url("../img/s-product-1.jpg");
+    height: 250px;
+    width: 100%;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat; }
 
-.silk-card-2 img {
-  background-image: url("../img/s-product-2.jpg");
-  height: 250px;
-  width: 100%;
-  background-position: center;
-  background-size: contain;
-  background-repeat: no-repeat; }
+.silk-card-2 {
+  border: none; }
+  .silk-card-2 img {
+    background-image: url("../img/s-product-2.jpg");
+    height: 250px;
+    width: 100%;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat; }
 
-.silk-card-3 img {
-  background-image: url("../img/s-product-3.jpg");
-  height: 250px;
-  width: 100%;
-  background-position: center;
-  background-size: contain;
-  background-repeat: no-repeat; }
+.silk-card-3 {
+  border: none; }
+  .silk-card-3 img {
+    background-image: url("../img/s-product-3.jpg");
+    height: 250px;
+    width: 100%;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat; }
