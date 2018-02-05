@@ -360,3 +360,14 @@ button {
     height: 200px;
     margin-left: 20px;
     float: none; } }
+
+.all-products h1 {
+  text-align: center; }
+
+.products-intro {
+  height: 200px;
+  width: 100%;
+  background: coral; }
+
+.all-products .jewelry-product1 {
+  background: pink; }
