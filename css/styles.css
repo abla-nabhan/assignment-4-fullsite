@@ -399,7 +399,7 @@ button {
     background-size: contain;
     background-repeat: no-repeat; }
 
-@media (max-width: 900px) {
+@media (max-width: 992px) {
   .hero, .hero-image {
     height: 500px; }
   .hero a {
@@ -410,17 +410,15 @@ button {
   .jewelry-card, .silk-card {
     height: 250px; }
   .employee-bio {
-    height: 900px; }
+    height: 700px; }
   .employee-bio-1-pic {
-    margin-left: 30%; }
+    margin-left: 25%; }
   .employee-bio-1-text {
-    padding-top: 0px;
-    background: red; }
+    padding-top: 0px; }
   .employee-bio-2-pic {
-    margin-left: 30%; }
+    margin-left: 25%; }
   .employee-bio-2-text {
-    padding-top: 0;
-    background: navy; } }
+    padding-top: 0; } }
 
 @media (max-width: 800px) {
   .hero, .hero-image {
@@ -453,8 +451,10 @@ button {
     height: 200px;
     margin-left: 50px;
     float: none; }
-  .employee-bio {
-    height: 900px; } }
+  .employee-bio-1-pic {
+    margin-left: 35%; }
+  .employee-bio-2-pic {
+    margin-left: 35%; } }
 
 @media (max-width: 610px) {
   .mobile-nav {
@@ -491,10 +491,10 @@ button {
     height: 200px;
     margin-left: 20px;
     float: none; }
-  .employee-bio {
-    height: 900px; }
-  .employee-bio-1-text {
-    padding-top: 0; } }
+  .employee-bio-1-pic {
+    margin-left: 25%; }
+  .employee-bio-2-pic {
+    margin-left: 25%; } }
 
 .mobile-menu {
   position: absolute;
