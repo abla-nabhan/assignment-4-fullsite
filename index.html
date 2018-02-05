@@ -39,23 +39,22 @@
 <!--MOBILE NAV *************************************************************-->
       <div class="mobile-nav">
           <!-- <div class="hamburger-container"> -->
-              <button><i class="fa fa-bars fa-lg" aria-hidden="true"></i></button>
+              <button><i id='toggle-button' class="fa fa-bars fa-lg" aria-hidden="true"></i></button>
           <!-- </div> -->
           <!-- <div class="logo-container"> -->
-              <div class="logo"></div>
+          <div class="logo" onclick="window.location.href='index.html'"></div>
           <!-- </div> -->
 
       </div>
 
-      <div class="mobile-menu" id='mobile-menu'>
-          <button id='close-mobile-menu-button'>Close</button>
-          <p>Home</p>
-          <p>About</p>
-          <p>Services</p>
-          <p>Contact</p>
-      </div>
-      <!-- <button id='open-mobile-menu-button'>Open</button> -->
-      </header>
+      <div class="mobile-menu" id="mobile-menu">
+ 				<ul>
+ 					<li><a href="About.html">About</a></li>
+ 					 <li><a href="products.html">All Products</a></li>
+ 					<li><a href="products.html#jewelry-card">Jewelry</a></li>
+ 					<li><a href="products.html#silk-card">Silk</a></li>
+ 				</ul>
+ 			</div>
 
 </header>
 
@@ -152,5 +151,6 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="./script.js"></script>
   </body>
 </html>
