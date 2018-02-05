@@ -1,0 +1,62 @@
+.main-section p{
+  background: #8C8092;
+  margin: 0;
+  padding: 50px;
+}
+
+.employee-bio{
+  height: 600px;
+  }
+
+.employee-bio-1-text {
+  display: inline-block;
+  vertical-align: top;
+  padding-top: 100px;
+  padding-left: 20px;
+
+  p{
+    background: none;
+    display: inline-block;
+    padding: 0;
+  }
+}
+
+.employee-bio-2-text {
+  display: inline-block;
+  vertical-align: top;
+  padding-top: 100px;
+  padding-left: 20px;
+
+  p{
+    background: none;
+    display: inline-block;
+    padding: 0;
+  }
+}
+
+
+
+.employee-bio-1-pic{
+  border: 1px #8C8092 solid;
+  background-image: url('../img/employee-1.jpg');
+  background-position: top;
+  background-size: cover;
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.employee-bio-2-pic{
+  border: 1px #8C8092 solid;
+  background-image: url('../img/employee-2.jpg');
+  background-position: left;
+  background-size: cover;
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  display: inline-block;
+  margin-top: 20px;
+
+}

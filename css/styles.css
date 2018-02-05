@@ -279,8 +279,10 @@ button {
   margin-top: 20px;
   color: white;
   height: 100px;
-  background: #29222C;
-  padding-left: 50px; }
+  width: 100%;
+  background: #8C8092;
+  padding-left: 50px;
+  padding-top: 20px; }
 
 .social-icons i {
   letter-spacing: 20px; }
@@ -294,7 +296,19 @@ button {
     margin-top: 100px;
     height: 600px; }
   .jewelry-card, .silk-card {
-    height: 250px; } }
+    height: 250px; }
+  .employee-bio {
+    height: 900px; }
+  .employee-bio-1-pic {
+    margin-left: 30%; }
+  .employee-bio-1-text {
+    padding-top: 0px;
+    background: red; }
+  .employee-bio-2-pic {
+    margin-left: 30%; }
+  .employee-bio-2-text {
+    padding-top: 0;
+    background: navy; } }
 
 @media (max-width: 800px) {
   .hero, .hero-image {
@@ -326,7 +340,9 @@ button {
     width: calc(100% - 100px);
     height: 200px;
     margin-left: 50px;
-    float: none; } }
+    float: none; }
+  .employee-bio {
+    height: 900px; } }
 
 @media (max-width: 610px) {
   .mobile-nav {
@@ -362,7 +378,61 @@ button {
     width: calc(100% - 40px);
     height: 200px;
     margin-left: 20px;
-    float: none; } }
+    float: none; }
+  .employee-bio {
+    height: 900px; }
+  .employee-bio-1-text {
+    padding-top: 0; } }
+
+.main-section p {
+  background: #8C8092;
+  margin: 0;
+  padding: 50px; }
+
+.employee-bio {
+  height: 600px; }
+
+.employee-bio-1-text {
+  display: inline-block;
+  vertical-align: top;
+  padding-top: 100px;
+  padding-left: 20px; }
+  .employee-bio-1-text p {
+    background: none;
+    display: inline-block;
+    padding: 0; }
+
+.employee-bio-2-text {
+  display: inline-block;
+  vertical-align: top;
+  padding-top: 100px;
+  padding-left: 20px; }
+  .employee-bio-2-text p {
+    background: none;
+    display: inline-block;
+    padding: 0; }
+
+.employee-bio-1-pic {
+  border: 1px #8C8092 solid;
+  background-image: url("../img/employee-1.jpg");
+  background-position: top;
+  background-size: cover;
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  display: inline-block;
+  margin-top: 20px; }
+
+.employee-bio-2-pic {
+  border: 1px #8C8092 solid;
+  background-image: url("../img/employee-2.jpg");
+  background-position: left;
+  background-size: cover;
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  display: inline-block;
+  margin-top: 20px; }
 
 .all-products {
   height: 700px; }
