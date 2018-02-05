@@ -2,20 +2,20 @@
     margin-top: 200px;
     height: 600px;
     background: linear-gradient(to bottom, white 4%, #29222C);
-}
 
-.products-container h1{
-  width: 100%;
-  text-align: center;
-  color: #29222C;
-  margin-bottom: 50px;
-}
+    h1{
+      width: 100%;
+      text-align: center;
+      color: #29222C;
+      margin-bottom: 50px;
+    }
 
-.products-container a{
-  display: inline-block;
-  width: 100%;
-  text-align: center;
-  margin-left: 0;
+    a{
+     display: inline-block;
+     width: 100%;
+     text-align: center;
+     margin-left: 0;
+   }
 }
 
 .jewelry-card h1, .silk-card h1{
@@ -30,12 +30,6 @@
   right: 0;
 }
 
-.jewelry-title, .silk-title{
-  display: inline-block;
-  margin-left: 50px;
-  width: 40%;
-}
-
 .jewelry-card{
   background-image: url('../img/jewelry-card-pic.jpg');
 }
@@ -44,6 +38,14 @@
 .silk-card{
   background-image: url('../img/scarf-card-pic.jpg');
 }
+
+
+.jewelry-title, .silk-title{
+  display: inline-block;
+  margin-left: 50px;
+  width: 40%;
+}
+
 
 .jewelry-card, .silk-card{
     display: inline-block;

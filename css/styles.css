@@ -66,10 +66,9 @@ header {
 .mobile-nav {
   display: none;
   width: 100%; }
-
-.mobile-nav button {
-  margin: 20px 20px 10px 0;
-  float: right; }
+  .mobile-nav button {
+    margin: 20px 20px 10px 0;
+    float: right; }
 
 .mobile-nav .logo {
   margin: 14px 0 10px 20px;
@@ -90,10 +89,9 @@ header {
 
 .hero-container {
   margin-left: 45%; }
-
-.hero-container a {
-  margin-top: 350px;
-  display: inline-block; }
+  .hero-container a {
+    margin-top: 350px;
+    display: inline-block; }
 
 .hero .shop-button:hover {
   background: transparent;
@@ -105,18 +103,16 @@ header {
   margin-top: 200px;
   height: 600px;
   background: linear-gradient(to bottom, white 4%, #29222C); }
-
-.products-container h1 {
-  width: 100%;
-  text-align: center;
-  color: #29222C;
-  margin-bottom: 50px; }
-
-.products-container a {
-  display: inline-block;
-  width: 100%;
-  text-align: center;
-  margin-left: 0; }
+  .products-container h1 {
+    width: 100%;
+    text-align: center;
+    color: #29222C;
+    margin-bottom: 50px; }
+  .products-container a {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    margin-left: 0; }
 
 .jewelry-card h1, .silk-card h1 {
   color: #29222C;
@@ -129,16 +125,16 @@ header {
   left: 0;
   right: 0; }
 
-.jewelry-title, .silk-title {
-  display: inline-block;
-  margin-left: 50px;
-  width: 40%; }
-
 .jewelry-card {
   background-image: url("../img/jewelry-card-pic.jpg"); }
 
 .silk-card {
   background-image: url("../img/scarf-card-pic.jpg"); }
+
+.jewelry-title, .silk-title {
+  display: inline-block;
+  margin-left: 50px;
+  width: 40%; }
 
 .jewelry-card, .silk-card {
   display: inline-block;
@@ -185,23 +181,12 @@ header {
     width: 100%;
     text-align: center;
     margin-bottom: 0; }
-
-.featured-collection-container h1 {
-  display: inline-block;
-  color: white;
-  width: 100%;
-  text-align: center;
-  margin-bottom: 0; }
-
-.collection-text h1 {
-  border-bottom: 2px solid white; }
-
-.featured-collection-container p {
-  margin-top: 0;
-  display: inline-block;
-  padding: 10px;
-  line-height: 20px;
-  color: white; }
+  .featured-collection-container p {
+    margin-top: 0;
+    display: inline-block;
+    padding: 10px;
+    line-height: 20px;
+    color: white; }
 
 .collection-card {
   display: inline-block;
@@ -222,21 +207,21 @@ header {
   background: #8C8092;
   float: right;
   margin-right: 60px; }
+  .collection-text h1 {
+    border-bottom: 2px solid white; }
 
-footer {
+.footer {
   height: 500px;
   background: #29222C; }
-
-footer hr {
-  border: 5px;
-  margin: 2px;
-  align: center;
-  width: 80%; }
-
-footer h1 {
-  color: white;
-  margin-left: 50px;
-  padding-top: 10px; }
+  .footer hr {
+    border: 5px;
+    margin: 2px;
+    align: center;
+    width: 80%; }
+  .footer h1 {
+    color: white;
+    margin-left: 50px;
+    padding-top: 10px; }
 
 input:focus, textarea:focus {
   outline-color: transparent;
@@ -282,9 +267,8 @@ button {
   background: #8C8092;
   padding-left: 50px;
   padding-top: 20px; }
-
-.social-icons i {
-  letter-spacing: 20px; }
+  .social-icons .social-icons i {
+    letter-spacing: 20px; }
 
 @media (max-width: 900px) {
   .hero, .hero-image {
@@ -471,7 +455,6 @@ button {
 .card-deck {
   padding-top: 70px; }
   .card-deck h1 {
-    background: pink;
     height: 50px;
     width: 100%;
     text-align: center; }
